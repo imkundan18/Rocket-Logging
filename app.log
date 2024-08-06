@@ -1,0 +1,31 @@
+2024-08-06 16:20:12.784 [INFO]: Logging system initialized with level: info
+2024-08-06 16:20:12.790 [INFO]: Configured for debug.
+2024-08-06 16:20:12.790 [INFO]: address: 0.0.0.0
+2024-08-06 16:20:12.790 [INFO]: port: 8000
+2024-08-06 16:20:12.790 [INFO]: workers: 8
+2024-08-06 16:20:12.790 [INFO]: max blocking threads: 512
+2024-08-06 16:20:12.790 [INFO]: ident: Rocket
+2024-08-06 16:20:12.790 [INFO]: IP header: X-Real-IP
+2024-08-06 16:20:12.790 [INFO]: limits: bytes = 8KiB, data-form = 2MiB, file = 1MiB, form = 32KiB, json = 1MiB, msgpack = 1MiB, string = 8KiB
+2024-08-06 16:20:12.790 [INFO]: temp dir: C:\Users\hp\AppData\Local\Temp\
+2024-08-06 16:20:12.790 [INFO]: http/2: true
+2024-08-06 16:20:12.791 [INFO]: keep-alive: 5s
+2024-08-06 16:20:12.791 [INFO]: tls: disabled
+2024-08-06 16:20:12.791 [INFO]: shutdown: ctrlc = true, force = true, grace = 2s, mercy = 3s
+2024-08-06 16:20:12.791 [INFO]: log level: normal
+2024-08-06 16:20:12.791 [INFO]: cli colors: true
+2024-08-06 16:20:12.791 [INFO]: Routes:
+2024-08-06 16:20:12.791 [INFO]: (create) POST /insert
+2024-08-06 16:20:12.791 [INFO]: (display_all) GET /display/all
+2024-08-06 16:20:12.792 [INFO]: (update) PUT /update/<id>
+2024-08-06 16:20:12.792 [INFO]: Fairings:
+2024-08-06 16:20:12.792 [INFO]: Shield (liftoff, response, singleton)
+2024-08-06 16:20:12.792 [INFO]: Logger (request, response)
+2024-08-06 16:20:12.793 [INFO]: Shield:
+2024-08-06 16:20:12.793 [INFO]: Permissions-Policy: interest-cohort=()
+2024-08-06 16:20:12.793 [INFO]: X-Content-Type-Options: nosniff
+2024-08-06 16:20:12.793 [INFO]: X-Frame-Options: SAMEORIGIN
+2024-08-06 16:20:12.794 [WARN]: Rocket has launched from http://0.0.0.0:8000
+2024-08-06 16:22:34.342 [WARN]: Received SIGINT. Requesting shutdown.
+2024-08-06 16:22:34.342 [INFO]: Shutdown requested. Waiting for pending I/O...
+2024-08-06 16:22:34.343 [INFO]: Graceful shutdown completed successfully.
